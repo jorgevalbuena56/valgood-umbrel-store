@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: valgood-byte-stash
+name: Byte Stash
+tagline: ByteStash helps you keep track of your code in one secure place.
+icon: https://svgur.com/i/mvA.svg
+category: Development
+version: "1.5.6"
+port: 5000
+description: >-
+  ByteStash is a self-hosted web application designed to store, organise, and manage your code snippets efficiently. With support for creating, editing, and filtering snippets, ByteStash helps you keep track of your code in one secure place.
+
+Features
+Create and Edit Snippets: Easily add new code snippets or update existing ones with an intuitive interface.
+Filter by Language and Content: Quickly find the right snippet by filtering based on programming language or keywords in the content.
+Secure Storage: All snippets are securely stored in a sqlite database, ensuring your code remains safe and accessible only to you.
+
+developer: Jordan Dalby
+website: https://ko-fi.com/zalosath
+submitter: Jorge Valbuena
+submission: https://github.com/jorgevalbuena56/valgood-umbrel-store/valgood-byte-stash
+repo: https://github.com/jorgevalbuena56/valgood-umbrel-store/valgood-byte-stash
+support: https://github.com/jorgevalbuena56/valgood-umbrel-store/valgood-byte-stash/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Escape key can now close any open modals
+  OIDC now prefers the users name over a substring of their email
+  The expansion state of modals is now persistent, if you expand a modal it will be remembered  for the next time
+  The paths of assets are now altered when ByteStash is under a base path
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

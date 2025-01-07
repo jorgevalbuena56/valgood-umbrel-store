@@ -1,0 +1,25 @@
+version: "3.7"
+
+services:
+  bytestash:
+    image: ghcr.io/jordan-dalby/bytestash:latest
+    container_name: valgood-byte-stash_server_1
+    restart: always
+    volumes:
+      - ${APP_DATA_DIR}/snippet:/data/snippets
+    environment:
+      BASE_PATH: ''
+      JWT_SECRET: df67a947ef40220c8e4a8fa3187e6dc027fde70d6a1b1a57938fcea20a4532b3746dc28f58dba6edf1928e437e6aee3c6096a42ee3ea97e7c910130cf73f39b9b6e0ced6a343acf31466534b34c300b4c7f6228bdd5351157d1456c73c7b9c1d69111c12e40aded9337f1b37d316cdfdf3baf7f6746cea91b1f20812993bf9e288b30dbed22cf54403e6cdf1406233549cb5184bc9986919788a7684eea5a135749f7d09c37971475b88172a469072f87501bed0526fb71933255ee64319d7e83debd269faaee71b00d95668edecbcbb2ffca247152634cfc0006aca13e0d8138087e5f75ef65a82b645bf89655ccfdc0011856fd5afe1f7e15fd2fd22bf1c81
+      TOKEN_EXPIRY: 24h
+      AUTH_USERNAME: bytestash
+      AUTH_PASSWORD: password
+      ALLOW_NEW_ACCOUNTS: 'true'
+      DEBUG: 'true'
+      DISABLE_ACCOUNTS: 'false'
+      DISABLE_INTERNAL_ACCOUNTS: 'false'
+      OIDC_ENABLED: 'false'
+  app_proxy:
+    environment:
+      APP_HOST: valgood-byte-stash_server_1
+      APP_PORT: 5000
+      PROXY_AUTH_ADD: 'false'
