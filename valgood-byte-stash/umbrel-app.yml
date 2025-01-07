@@ -23,8 +23,8 @@ repo: https://github.com/jorgevalbuena56/valgood-umbrel-store/valgood-byte-stash
 support: https://github.com/jorgevalbuena56/valgood-umbrel-store/valgood-byte-stash/issues
 gallery:
   - https://i.imgur.com/AiSL2yh.png
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/AiSL2yh.png
+  - https://i.imgur.com/AiSL2yh.png
 releaseNotes: >-
   Escape key can now close any open modals
   OIDC now prefers the users name over a substring of their email
