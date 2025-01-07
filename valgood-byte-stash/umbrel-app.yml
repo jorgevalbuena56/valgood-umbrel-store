@@ -2,7 +2,7 @@ manifestVersion: 1
 id: valgood-byte-stash
 name: Byte Stash
 tagline: ByteStash helps you keep track of your code in one secure place.
-icon: https://imgur.com/a/ITsy2Lu
+icon: https://imgur.com/a/TtxCaoq
 category: Development
 version: "1.5.6"
 port: 5000
@@ -22,7 +22,7 @@ submission: https://github.com/jorgevalbuena56/valgood-umbrel-store/valgood-byte
 repo: https://github.com/jorgevalbuena56/valgood-umbrel-store/valgood-byte-stash
 support: https://github.com/jorgevalbuena56/valgood-umbrel-store/valgood-byte-stash/issues
 gallery:
-  - https://imgur.com/a/ITsy2Lu
+  - https://imgur.com/a/r4PsKtv
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
