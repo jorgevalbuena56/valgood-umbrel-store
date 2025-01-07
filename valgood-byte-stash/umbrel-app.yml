@@ -9,10 +9,11 @@ port: 5000
 description: >-
   ByteStash is a self-hosted web application designed to store, organise, and manage your code snippets efficiently. With support for creating, editing, and filtering snippets, ByteStash helps you keep track of your code in one secure place.
 
-Features
-Create and Edit Snippets: Easily add new code snippets or update existing ones with an intuitive interface.
-Filter by Language and Content: Quickly find the right snippet by filtering based on programming language or keywords in the content.
-Secure Storage: All snippets are securely stored in a sqlite database, ensuring your code remains safe and accessible only to you.
+  Here are some key features of Byte Stash:
+
+  ✔️ Create and Edit Snippets: Easily add new code snippets or update existing ones with an intuitive interface.
+  ✔️ Filter by Language and Content: Quickly find the right snippet by filtering based on programming language or keywords in the content.
+  ✔️ Secure Storage: All snippets are securely stored in a sqlite database, ensuring your code remains safe and accessible only to you.
 
 developer: Jordan Dalby
 website: https://ko-fi.com/zalosath
