@@ -3,7 +3,7 @@ id: valgood-watchtower
 name: WatchTower
 tagline: A container-based solution for automating Docker container base image updates.
 icon: https://i.imgur.com/L0KIkvc.png
-category: Development
+category: Networking
 version: "1.7.1"
 port: 8080
 description: >-
