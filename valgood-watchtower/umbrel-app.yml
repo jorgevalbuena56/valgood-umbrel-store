@@ -5,6 +5,7 @@ tagline: A container-based solution for automating Docker container base image u
 icon: https://i.imgur.com/C7TMoAw.png
 category: Networking
 version: "1.7.1"
+port: 8080
 description: >-
   With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry.
 Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially.
