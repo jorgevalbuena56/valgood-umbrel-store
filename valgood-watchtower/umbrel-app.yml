@@ -2,18 +2,13 @@ manifestVersion: 1
 id: valgood-watchtower
 name: WatchTower
 tagline: A container-based solution for automating Docker container base image updates.
-icon: https://i.imgur.com/C7TMoAw.png
-category: Networking
+icon: https://i.imgur.com/L0KIkvc.png
+category: Development
 version: "1.7.1"
 port: 8080
 description: >-
   With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry.
-Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially.
-
-Watchtower is intended to be used in homelabs, media centers, local dev environments, and similar. 
-We do not recommend using Watchtower in a commercial or production environment. 
-If that is you, you should be looking into using Kubernetes. 
-If that feels like too big a step for you, please look into solutions like MicroK8s and k3s that take away a lot of the toil of running a Kubernetes cluster.
+  Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially.
 developer: Containrrr 
 website: https://containrrr.dev/watchtower/
 submitter: Jorge Valbuena
