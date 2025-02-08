@@ -1,6 +1,6 @@
 services:
   watchtower:
-    container_name: watchtower
+    container_name: valgood-watchtower_server_1
     image: containrrr/watchtower
     restart: always
     volumes:
@@ -12,3 +12,7 @@ services:
       - WATCHTOWER_POLL_INTERVAL=36000                  
       #- WATCHTOWER_SCHEDULE=0 0 9 * * *
       #- WATCHTOWER_DEBUG=true   
+  app_proxy:
+    environment:
+      APP_HOST: valgood-watchtower_server_1
+      PROXY_AUTH_ADD: 'false'      
