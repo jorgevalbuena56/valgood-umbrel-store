@@ -6,8 +6,6 @@ services:
     restart: always
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    port: 
-      - 8080:8181  
     environment:
       - TZ=$TZ
       - WATCHTOWER_CLEANUP=true                                        
@@ -18,5 +16,5 @@ services:
   app_proxy:
     environment:
       APP_HOST: valgood-watchtower_server_1
-      APP_PORT: 8181
+      APP_PORT: ""
       PROXY_AUTH_ADD: 'false'      
