@@ -2,7 +2,7 @@ version: "3.7"
 services:
   watchtower:
     container_name: valgood-watchtower_server_1
-    image: containrrr/watchtower
+    image: containrrr/watchtower:latest
     restart: always
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
