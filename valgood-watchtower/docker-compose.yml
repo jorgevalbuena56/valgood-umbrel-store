@@ -16,5 +16,5 @@ services:
   app_proxy:
     environment:
       APP_HOST: valgood-watchtower_server_1
-      APP_PORT: ""
+      APP_PORT: 9001
       PROXY_AUTH_ADD: 'false'      
